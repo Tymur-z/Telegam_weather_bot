@@ -22,7 +22,7 @@ and switching between metric and imperial units.
 - 🧩 Modular structure (handlers / keyboards / services / database / states / utils)
 - ✅ Unit tests + GitHub Actions CI
 
-## 🆓 Free API key, no credit card
+## Free API key, no credit card
 
 This bot uses OpenWeatherMap's **Current Weather Data** and **5 Day / 3 Hour Forecast**
 endpoints (`/data/2.5/weather` and `/data/2.5/forecast`). These are part of OpenWeatherMap's
@@ -35,7 +35,7 @@ permanent free tier:
 > which requires a subscription after a small daily allowance. This project does **not**
 > use that endpoint, so you will not be charged anything by following the setup below.
 
-## 🗂️ Project structure
+## Project structure
 
 ```
 weather-telegram-bot/
@@ -65,7 +65,7 @@ weather-telegram-bot/
     └── test_formatting.py      # Unit tests (no network needed)
 ```
 
-## 🚀 Setup
+## Setup
 
 ### 1. Clone the repo
 
@@ -124,7 +124,7 @@ python main.py
 
 Find your bot on Telegram and send `/start`.
 
-## 🧪 Running tests
+## Running tests
 
 ```bash
 pip install -r requirements-dev.txt
@@ -142,7 +142,7 @@ ruff check .
 - [python-dotenv](https://github.com/theskumar/python-dotenv) — environment variables
 - [pytest](https://docs.pytest.org/) + [ruff](https://docs.astral.sh/ruff/) — tests & linting
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
@@ -150,7 +150,7 @@ Contributions are welcome — see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 Released under the [MIT License](LICENSE) — free to use, modify, and share.
 
-## 💡 Ideas for extending this project
+## Ideas for extending this project
 
 - Scheduled weather alerts (APScheduler)
 - Multi-language support
